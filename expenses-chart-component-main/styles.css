@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+  
+  .first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    background-color: #ea745c;
+    border-radius: 15px;
+    padding: 20px;
+    height: 80px;
+  }
+  
+  .second-container {
+    width: 500px;
+    background-color: white;
+    border-radius: 15px 15px 0 0 ;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .first-container p {
+    color: white;
+    margin: 0;
+  }
+  
+  .balance {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  h2{
+    margin-bottom: 40px;
+  }
+  
+  .total-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    height: 80px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+  }
+  
+  .bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    width: 30px;
+    background-color: #ea745c;
+    border-radius: 5px;
+ 
+  }
+
+  .bar-container :hover{
+    background-color: rgb(162, 224, 224);
+    cursor: pointer;
+    box-shadow: 0.1px 1px 5px 1px;
+  }
+  
+  .bar-label {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .day-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
